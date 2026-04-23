@@ -11,5 +11,7 @@ namespace ExamPrep2024_Booking
         public int BookingId { get; set; }
         public DateTime BookingsDate { get; set; }
         public int NumberOfParticipants { get; set; }
+
+        public virtual Customer Customer { get; set; }
     }
 }
