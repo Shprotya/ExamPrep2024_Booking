@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36915.13 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPrep2024_Booking", "ExamPrep2024_Booking\ExamPrep2024_Booking.csproj", "{F55AD087-E31B-47A6-84C0-B738EAA9974E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagement", "DataManagement\DataManagement.csproj", "{690F4DA9-BD12-4691-ADD3-6B4DCD830326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F55AD087-E31B-47A6-84C0-B738EAA9974E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F55AD087-E31B-47A6-84C0-B738EAA9974E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F55AD087-E31B-47A6-84C0-B738EAA9974E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690F4DA9-BD12-4691-ADD3-6B4DCD830326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690F4DA9-BD12-4691-ADD3-6B4DCD830326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690F4DA9-BD12-4691-ADD3-6B4DCD830326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690F4DA9-BD12-4691-ADD3-6B4DCD830326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
