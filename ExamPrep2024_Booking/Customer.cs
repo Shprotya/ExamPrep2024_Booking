@@ -8,5 +8,8 @@ namespace ExamPrep2024_Booking
 {
     internal class Customer
     {
+        public int CustomerId { get; set; }
+        public string Name { get; set; }
+        public string ContactNumber { get; set; }
     }
 }
