@@ -27,6 +27,23 @@ namespace DataManagement
                     db.Customers.Add(c3);
 
                     db.SaveChanges();
+
+                    Console.WriteLine("Added the Customers");
+
+                    Booking b1 = new Booking { BookingsDate = DateTime.Now, NumberOfParticipants = 4, CustomerId = 1 };
+                    Booking b2 = new Booking { BookingsDate= DateTime.Now, NumberOfParticipants = 2, CustomerId = 2 };
+
+                    Console.WriteLine("Created Bookings");
+
+                    db.Bookings.Add(b1);
+                    db.Bookings.Add(b2);
+
+                    db.SaveChanges();
+
+                    Console.WriteLine("Added the Bookings");
+
+                    Console.WriteLine("Press enter to continue...");
+                    Console.ReadLine();
                 }
             }
             catch (Exception ex)
