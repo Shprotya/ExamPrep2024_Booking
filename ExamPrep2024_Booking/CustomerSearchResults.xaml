@@ -1,0 +1,42 @@
+﻿<Window x:Class="ExamPrep2024_Booking.CustomerSearchResults"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="CustomerSearchResults" Height="400" Width="550">
+    <Grid>
+        <!-- Left panel: matching customers -->
+        <Label Content="Matching Customers"
+               HorizontalAlignment="Left" Margin="20,15,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ListBox x:Name="lbx_Matches"
+                 HorizontalAlignment="Left" Margin="20,40,0,20"
+                 Width="200" VerticalAlignment="Stretch"/>
+
+        <!-- Right panel: new customer / booking details -->
+        <Label Content="Create New Customer"
+               HorizontalAlignment="Left" Margin="250,15,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
+        <TextBox x:Name="tbx_Name"
+                 HorizontalAlignment="Left" Margin="250,45,0,0"
+                 VerticalAlignment="Top" Width="250" Height="25"/>
+
+        <TextBox x:Name="tbx_Contact"
+                 HorizontalAlignment="Left" Margin="250,85,0,0"
+                 VerticalAlignment="Top" Width="250" Height="25"/>
+
+        <TextBlock x:Name="tbl_BookingDate"
+                   HorizontalAlignment="Left" Margin="250,125,0,0"
+                   VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="tbl_NumCustomers"
+                   HorizontalAlignment="Left" Margin="250,150,0,0"
+                   VerticalAlignment="Top"/>
+
+        <Button x:Name="btn_CreateBooking"
+                Content="Create Booking"
+                HorizontalAlignment="Left" Margin="350,310,0,0"
+                VerticalAlignment="Top" Height="30" Width="130"
+                Click="Btn_CreateBooking_Click"/>
+    </Grid>
+</Window>
