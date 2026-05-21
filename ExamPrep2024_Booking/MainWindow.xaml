@@ -13,7 +13,7 @@
         <Label Content="Capacity" HorizontalAlignment="Left" Margin="46,374,0,0" VerticalAlignment="Top"/>
         <Label Content="Bookings" HorizontalAlignment="Left" Margin="142,374,0,0" VerticalAlignment="Top"/>
         <Label Content="Available" HorizontalAlignment="Left" Margin="239,374,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btn_Delete" Content="Delete Booking" HorizontalAlignment="Center" Margin="0,377,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
+        <Button x:Name="btn_Delete" Content="Delete Booking" HorizontalAlignment="Center" Margin="0,377,0,0" VerticalAlignment="Top" Height="21" Width="128"/>
         <TextBlock x:Name="tbl_Capacity" HorizontalAlignment="Left" Margin="106,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock x:Name="tbl_Booking" HorizontalAlignment="Left" Margin="206,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock x:Name="tbl_Available" HorizontalAlignment="Left" Margin="297,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
